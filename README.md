@@ -32,9 +32,3 @@ Install Django-Authentication-System with Python
   
 ```
     
-# Hi, I'm Abhinav Singwal! 👋
-
-
-## 🚀 About Me
-I'm a full Python developer...
-
