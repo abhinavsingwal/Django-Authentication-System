@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'main/base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Signup {% endblock %}</title>
+</head>
+<body>
+{% load crispy_forms_tags %}
+{% block content %}
+<form method="post">
+{% csrf_token %}
+{{ form|crispy }}
+<p>have an accout? <a href="/login">Login</a></p>
+<button type="submit" class="btn btn-success">Register </button>
+</form>
+{% endblock %}
+</body>
+</html>
